@@ -1,10 +1,10 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'base64_validator/version'
+file = File.open(File.expand_path('../lib/base64_validator/version.rb', __FILE__))
+version = file.read.scan(/\d+\.\d+\.\d+/).first
+file.close
 
 Gem::Specification.new do |spec|
   spec.name            = 'activemodel-base64_validator'
-  spec.version         = Base64Validator::VERSION
+  spec.version         = version
   spec.authors         = ['Yuku Takahashi']
   spec.email           = ['yuku@qiita.com']
   spec.summary         = 'A base64 validator for Rails 3 and 4.'
