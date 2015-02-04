@@ -1,5 +1,7 @@
 # activemodel-base64_validator
 
+[![Build Status](https://travis-ci.org/increments/activemodel-base64_validator.svg?branch=master)](https://travis-ci.org/increments/activemodel-base64_validator)
+
 ## Usage
 
 Add to your Gemfile:
