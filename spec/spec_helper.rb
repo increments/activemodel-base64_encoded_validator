@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 require 'base64'
 require 'active_model'
 require 'base64_validator'
