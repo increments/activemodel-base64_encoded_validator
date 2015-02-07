@@ -1,6 +1,7 @@
 # activemodel-base64_validator
 
-[![Build Status](https://travis-ci.org/increments/activemodel-base64_validator.svg?branch=master)](https://travis-ci.org/increments/activemodel-base64_validator)
+[![Build Status](https://travis-ci.org/increments/activemodel-base64_validator.svg?branch=master)](https://travis-ci.org/increments/activemodel-base64_validator) [![Code Climate](https://codeclimate.com/github/increments/activemodel-base64_validator/badges/gpa.svg)](https://codeclimate.com/github/increments/activemodel-base64_validator) [![Coverage Status](https://coveralls.io/repos/increments/activemodel-base64_validator/badge.svg)](https://coveralls.io/r/increments/activemodel-base64_validator) [![Dependency Status](https://gemnasium.com/increments/activemodel-base64_validator.svg)](https://gemnasium.com/increments/activemodel-base64_validator)
+
 
 ## Usage
 
